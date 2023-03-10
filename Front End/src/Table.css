@@ -1,0 +1,44 @@
+body{
+  background-color:antiquewhite;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #7cdcf5;
+  box-shadow: #e80a0a;
+}
+th, td {
+  text-align: left;
+  padding: 12px;
+}
+th {
+  background-color: #4285f4;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+td {
+  border-bottom: 1px sol #e80a0a;
+}
+button{
+    /* color:#4285f4; */
+    background-color: #f4e2bb;
+}
+tr:hover {
+  background-color: #6be58b;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f24545;
+}
+
+@media (max-wth: 600px) {
+  table {
+    font-size: 12px;
+  }
+}
+.login-label{
+  text-align: center;
+}
